@@ -1,3 +1,3 @@
 # WebPublishing
 ---
-Web Publishing 작업물 입니다. 
+Web Publishing 소스코드입니다. 
