@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <!-- 익스플로러 같은 경우 ie버전이 최신버전으로 뜨게 설정하는 것, chrome=1은 확장버전으로 띄우는 것, 크로스 브라우징할 때는 필요없지만 html5에서 사용-->
+        <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <!-- 핸드폰에서 볼때 확대해서 보는것, 웹페이지에선 필요없다? -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <!-- 타이틀 옆에 아이콘이미지 넣는것 -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- 제이쿼리 라이브러리 확인하는 부분, 특정 브라우저에 적용안되는 것을 선택하면 다른 방법으로 표현해줄 수 있는것? html5쓰기전엔 필요없다. -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    </head>
+    <body>
+        <!-- 상황별 주석처리 -->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <p>Hello world! This is HTML5 Boilerplate.</p>
+
+        <!-- cdm, 제이쿼리를 내폴더에 있는것도 넣고 인터넷에 연결한것도 쓰고, 인터넷이 안될때는 내폴더에 있는것을 사용 
+        head와 body 부분에서 적용되는게 다름, 로딩 속도 차이, head에 사용할 때는 로딩 관련? 스크립트를 사용해야함-->
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- 내가 만들어서 사용하는 사이트에 넣어두는 것, 내사이트에 들어오는 사람이 어디서 들어오는지, 시간등등 통계 체크할 수 있는 코드 -->
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

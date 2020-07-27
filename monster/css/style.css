@@ -1,0 +1,196 @@
+@import 'https://fonts.googleapis.com/css?family=Berkshire+Swash|Open+Sans';
+.clearfix{*zoom:1}
+.clearfix:after{content: '';display: block;clear: both;}
+
+/* 기본 */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,AppleGothic,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:none}
+hr{display: none}
+p{color:#FFF;}
+
+
+.blind{display: block; position: absolute; left:0; top:-9999em;}
+
+.skip a{display: block;position: absolute;left: 0;top:-9999em; z-index: 9999; padding:10px 0;width: 100%; background-color: navy;color:#EEE;font-size: 1.3em; text-align: center}
+.skip a:hover, .skip a:active, .skip a:focus{top:0;}
+.skip #content{}
+
+#wrap{width: 100%;margin: 0 auto; background-color: grey;}
+/*width: 1170px를 어떻게 넣어야 하나...*/
+
+/*header*/
+#header{font-family: "Open Sans", Helvetica, Arial, sans-serif;}
+#header .header_top{height: 106px; background-color: #FFF;}
+#header .header_top .range_inn{padding-top: 25px;}
+/* 다른부분도 이것처럼 margin이들어가야하나?? */
+#header .header_top .range_inn .range{position: relative;margin: 0 auto;width: 1170px;}
+
+#header .header_top .range_inn .range .cell_one{position: absolute;	left:50%;margin-left:-90px;}
+#header .header_top .range_inn .range .cell_one .brend_name{}
+
+#header .header_top .range_inn .range .cell_two{float: left; padding-top: 10px;}
+#header .header_top .range_inn .range .cell_two .text_middle{color: #434345;font-size: 15px;}
+#header .header_top .range_inn .range .cell_thr_area{}
+
+#header .header_top .range_inn .range .cell_thr{float: right;padding-top: 10px;}
+#header .header_top .range_inn .range .cell_thr .text_middle{color: #434345;font-size: 15px;}
+
+
+/*header_bottom*/
+/*메뉴바 hover 위치정리 및 Home 표시
+  화면 창 줄였을때  위치...*/
+#header .header_bottom{
+	position: relative;
+	height: 62px;
+	background-color: #F3F4F9;
+	font-weight: bold;
+}
+#header .header_bottom .menu_inn{
+	padding: 100px;
+	/*padding 넣을 곳*/
+}
+
+#header .header_bottom .menu_inn .menu{}
+#header .header_bottom .menu_inn .menu h3{
+	position: absolute; 
+	top:20px; 
+
+}
+#header .header_bottom .menu_inn .menu a{
+	color: #434345;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+
+#header .header_bottom .menu_inn .menu a:hover{
+	padding: 8px 15px;
+	background-color: #58C56F;
+	color: #FFF;
+	border-radius: 3px;
+}
+#header .header_bottom .menu_inn .menu .menu1 h3{left:550px;}
+#header .header_bottom .menu_inn .menu .menu2 h3{left:650px;}
+#header .header_bottom .menu_inn .menu .menu3 h3{left:750px;}
+#header .header_bottom .menu_inn .menu .menu4 h3{left:850px;}
+#header .header_bottom .menu_inn .menu .menu5 h3{left:950px;}
+#header .header_bottom .menu_inn .menu .menu6 h3{left:1050px;}
+
+
+
+/*container*/
+
+/* Fresh Organic Food */
+#fresh{}
+#fresh .fresh_one{
+	width:100%;
+	height: 674px; 
+	background: url("../img/slide-01.jpg") no-repeat scroll 50% 0;
+}
+/*text-align:center를 하면 화면을 줄였을때 텍스트가 고정되어 있다...*/
+#fresh .fresh_one .fresh_shell {
+	width: 1170px; 
+	margin: 0 auto; 
+	padding-top: 180px; 
+	text-align: center; 
+}
+#fresh .fresh_one .fresh_shell h1{
+	color: #FFF;
+	font-family: "Berkshire Swash", cursive;
+	font-size: 72px;
+}
+#fresh .fresh_one .fresh_shell p{
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+}
+#fresh .fresh_one .fresh_shell .fresh_offset{
+    margin-top: 50px;
+}
+
+.btn{
+	padding: 11px 37px;
+	border: 2px solid;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+#fresh .fresh_one .fresh_shell .fresh_offset .offset_show{
+    color: #FFF;
+    border-color: #58C56F;
+    background-color: #58C56F;	
+}
+#fresh .fresh_one .fresh_shell .fresh_offset .offset_show:active, .offset_show:hover{
+    color: #FFF;
+    background-color: #3CAE54;
+    border-color: #3AA651;
+}
+#fresh .fresh_one .fresh_shell .fresh_offset .offset_show:hover{
+    color: #FFF;
+    background-color: #3CAE54;
+    border-color: #3AA651;
+}
+
+
+#fresh .fresh_one .fresh_shell .fresh_offset .offset_learn{
+    color: #FFF;
+    border-color: #58C56F;
+    background-color: #58C56F;	
+}
+
+
+
+
+
+/* Popular Categories*/
+#categories{
+	width: 100%;
+	height: 674px;
+	background-color: #FFF;
+}
+#categories .categories_shell{
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+#categories .categories_shell h3{
+	color: #434345;
+	font-family: "Berkshire Swash", cursive;
+	font-size: 45px;
+	text-align: center;
+}
+#categories .categories_shell .categories_list h4{
+	font-family: "Berkshire Swash", cursive;
+	font-size: 30px;
+}
+
+
+
+
+
+/* Why Choose us */
+#choose{	
+	width: 100%;
+	height: 500px;
+	background-color: #F3F4F9;
+}
+#choose .choose_shell{
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+#choose .choose_shell h3{
+	color: #434345;
+	font-family: "Berkshire Swash", cursive;
+	font-size: 45px;
+	text-align: center;
+}
+#choose .choose_shell .choose_one{
+
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>EMS</title>
+</head>
+<body>
+<!-- ems -->
+<!-- align은 브라우저 표준이 아니여서 잘 사용 안하는 데 이메일에선 사용 -->
+<!-- 그림을 넣으면 틈새가 벌어진다. 그것을 없애기 위해 넣는 속성 table에 cellpadding="0" 
+     img에 style="vertical-align:top" 넣어줌 -->
+<table cellspacing="0" cellpadding="0" border="0" width="630" align="center" >
+	<tr>
+		<td><img src="img/ems_01.jpg" alt="" style="vertical-align:top"></td>
+	</tr>
+	<tr>
+	<!-- 이메일 보낼때 서체 따로 주는 게 안 깨진다. css는 상속하지 말고 직접 적용해야 문제없이 적용된다.-->
+		<td height="27" style="color:#DEDEDE;font-family:verdana,sans-serif;font-size:10px;font-weight:bold;text-align:center;">
+			<strong style="color:#666666;">NEWS LETTER</strong> |
+			<em style="color:#3EA513;font-style:normal">2008.2.14 THU</em>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="img/ems_02.jpg" alt="" style="vertical-align:top"></td>
+	</tr>
+	<tr>
+		<td><img src="img/ems_03.jpg" alt="" style="vertical-align:top"></td>
+	</tr>
+	<tr>
+		<!-- 이미지에 링크를 걸면 border 0를 넣어준다. 
+			IE 10 버전으로 보면 테두리가 있다.-->
+		<td><a href="#"><img src="img/ems_04.jpg" border="0" alt="" style="vertical-align:top"></a></td>
+	</tr>
+	<tr>
+		<td><img src="img/ems_05.jpg" alt="" style="vertical-align:top"></td>
+	</tr>
+	<tr>
+	<!-- width는 px로 주지 말고 %로 안그럼 틀어질수있다. -->
+		<td>
+		<!-- 옛날 방식, 요새도 쓰긴쓴다, 하지만 좋은 방법은 아니다. table안에 table사용하는 건 별로 좋지 못하다. -->
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
+				<tr>
+					<td rowspan="2"><a href="#"><img src="img/ems_06.jpg" border="0" alt="" style="vertical-align:top"></a></td>
+					<td><a href="#"><img src="img/ems_07.jpg" border="0" alt="" style="vertical-align:top"></a></td>
+				</tr>
+				<tr>
+					<td><a href="#"><img src="img/ems_08.jpg" border="0" alt="" style="vertical-align:top"></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
+				<tr>
+					<td><a href="#"><img src="img/ems_09.jpg" border="0" alt="" style="vertical-align:top"></a></td>
+					<td><a href="#"><img src="img/ems_10.jpg" border="0" alt="" style="vertical-align:top"></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="img/ems_11.jpg" alt="" style="vertical-align:top"></td>
+	</tr>	
+	<tr>
+		<td><a href="#"><img src="img/ems_12.jpg" border="0" alt="" style="vertical-align:top"></a></td>
+	</tr>
+	<tr>
+		<td><img src="img/ems_13.jpg" alt="" style="vertical-align:top"></td>
+	</tr>
+	<tr>
+	<!-- map태그는 img태그와 떨어져있어도 연결은 된다. map태그는 지도 클릭하는 부분에 많이 사용한다.-->
+		<td><img src="img/ems_14.jpg" usemap="#lnk_area" alt="" style="vertical-align:top"></td>
+		<map name="lnk_area" id="lnk_area">
+		<!-- 링크영역을 같이 매치를 시키려면 name과 id를 사용, 크롬 브라우저 때문에 둘다 사용?
+		     shape=rect는 사각형 영역으로 표시
+		     coords: 클릭되는 영역-->
+			<area shape="rect" coords="0,0,80,70" href="#" alt="봄패션 더보기">
+			<area shape="rect" coords="300,0,380,70" href="#" alt="화이트데이 더보기">
+			<area shape="rect" coords="0,120,80,200" href="#" alt="새봄 이사 &amp; 인테리어 더보기">
+			<area shape="rect" coords="300,120,380,200" href="#" alt="입학 &amp; 신학기 더보기">
+		</map>
+	</tr>
+	<tr>
+		<td><img src="img/ems_15.jpg" alt="" style="vertical-align:top"></td>
+	</tr>
+	<!-- 텍스트 작업 영역 -->
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
+			<tr>
+				<td width="20">&nbsp;</td>
+				<td width="590" style="background:#F5F5F5">
+					<table cellspacing="0" cellpadding="0" border="0" width="570" align="center">
+					<tr>
+					<!-- 링크된 글자는 a에 바로 적용 -->
+						<td style="padding-top:14px;padding-bottom:5px;padding-left:10px;border-bottom:1px dotted #BABABA"><a href="#" style="color:#454545;font-family:'돋움',dotum,san-serif;font-size:12px;text-decoration:none">2008년 美광고시장, 온라인 비중 18%까지 증가</a> <span style="color:#F88655;font-family:'돋움',dotum,san-serif;font-size:11px">블로터닷넷,2008-01-02</span></td>
+					</tr>
+					<tr>
+						<td style="padding-left:10px;padding-bottom:5px;border-bottom:1px dotted #BABABA"><a href="#" style="color:#454545;font-family:'돋움',dotum,san-serif;font-size:12px;text-decoration:none">성공노하우 : 통통 여성의 틈새 시장을 공략하라</a> <span style="color:#F88655;font-family:'돋움',dotum,san-serif;font-size:11px">이데일리,2008-01-02</span></td>
+					</tr>	
+					<tr>
+						<td style="padding-bottom:34px;padding-left:10px"><a href="#" style="color:#454545;font-family:'돋움',dotum,san-serif;font-size:12px;text-decoration:none">쥐띠해 "쥐 캐릭터 상품 " 및 "결심도우미 제품" 봇물</a> <span style="color:#F88655;font-family:'돋움',dotum,san-serif;font-size:11px">한겨레,2008-01-01</span></td>
+					</tr>
+					</table></td>
+				<td width="20">&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><a href=""><img src="img/ems_16.jpg" border="0" alt="" style="vertical-align:top"></a></td>
+	</tr>
+	<!-- 텍스트 작업 영역 -->
+	<tr>
+		<td style="padding:24px 54px 14px 54px;color:#959595;font-family:'돋움',dotum,sans-serif;font-size:11px;line-height:16px;">본 메일은 2007년 9월 18일 기준 메일수신동의를 하신 회원님께 보내는 안내 메일입니다.<br>
+			이는 발신전용이며 회신되지 않으므로 <a href="#" style="color:#00759C;text-decoration:none">고객센터</a>를 눌러서 문의 해 주세요.
+		</td>
+	</tr>
+	<tr>
+		<td><img src="img/ems_17.jpg" alt="" style="vertical-align:top"></td>
+	</tr>	
+</table>
+<!-- //ems -->
+</body>
+</html>

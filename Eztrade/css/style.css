@@ -1,0 +1,126 @@
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,AppleGothic,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+hr{display: none;}
+
+.clearfix{*zoom:1}
+.clearfix:after{content: '';display: block;clear: both;}
+
+.blind{display: block;position: absolute;left: 0;top:-9999em;}
+.skip a{display: block;position: absolute;left: 0;top:-9999em; z-index: 9999; padding:10px 0;width: 100%; background-color: navy;color:#EEE;font-size: 1.3em; text-align: center}
+.skip a:hover,.skip a:active,.skip a:focus{top:0;}
+.bold{font-weight: bold;}
+
+
+#wrap{width: 1040px;margin: 0 auto;}
+
+/*header*/
+#header{}
+
+/* login */
+.login{}
+.login ul{padding-top: 13px;padding-bottom: 13px;float: right;}
+.login li{display: block;float: left;margin-left: 7px;}
+
+
+/* 인라인 태그일때는 크기를 지정할 수 없다.
+	 display block으로 설정해야 이미지 출력*/
+
+.login .login_img{display: block;	width: 65px; height: 22px;	background: url(../img/login.gif) no-repeat; text-indent: -9999em;}
+.login .singup_img{display: block;width: 68px;	height: 22px;	background: url(../img/login.gif) no-repeat -72px 0;text-indent: -9999em;}
+.login .go_img{display: block;width: 110px;height: 22px;background: url(../img/login.gif) no-repeat -147px 0; text-indent: -9999em;}
+
+/* logo */
+#header h1{float: left;	width: 230px;	height: 199px;background-color: red;}
+.logo_menu{
+}
+.logo{display: block; width: 230px;	height: 199px;background: url(../img/logo.gif) no-repeat;	text-indent: -9999em;}
+
+/* menu */
+.inn{margin: 18px;}
+.menu{float: right; border-top: 1px solid #CCC; }
+.menu a{color: #939393;	text-decoration:none;}
+.menu a:hover{color: #666;text-decoration:none;}
+.menu .menu_one{float: left;width: 159px;height: 198px;	border-right: 1px solid #E6E6E6;line-height: 1.5em;}
+.menu .menu_one .menu_img01{display: block; width: 60px;height: 40px;	background: url(../img/mm01.gif) no-repeat;	text-indent: -9999em;}
+
+.menu .menu_two{float: left;width: 161px;height: 198px;	border-right: 1px solid #E6E6E6;line-height: 1.5em;}
+.menu .menu_two .menu_img02{display: block; width: 59px;height: 40px;	background: url(../img/mm02.gif) no-repeat;	text-indent: -9999em;}
+
+.menu .menu_thr{float: left;width: 162px;	height: 198px;	border-right: 1px solid #E6E6E6;	line-height: 1.5em;}
+.menu .menu_thr .menu_img03{display: block; width: 79px;height: 40px;	background: url(../img/mm03.gif) no-repeat;	text-indent: -9999em;}
+
+.menu .menu_four{float: left;	width: 161px;	height: 198px;	border-right: 1px solid #E6E6E6;line-height: 1.5em;}
+.menu .menu_four .menu_img04{display: block; width: 51px;	height: 40px;	background: url(../img/mm04.gif) no-repeat;	text-indent: -9999em;}
+
+.menu .menu_five{float: left;	width: 161px;	height: 198px;border-right: 1px solid #CCC;	line-height: 1.5em;}
+.menu .menu_five .menu_img05{display: block; width: 55px;	height: 40px;	background: url(../img/mm05.gif) no-repeat;	text-indent: -9999em;}
+
+/* container */
+#container{position: relative;}
+.img_prev {position: absolute;left: 0;top: 253px;display: block;width: 68px;height: 68px;background: url(../img/btn_prev.gif) no-repeat;text-indent: -9999em;}
+
+/* content */
+#content{}
+.img_content_01{}
+.img_content_02{display: none;}
+.img_content_03{display: none;}
+.img_next {display: block;position: absolute;right: 0;top: 253px;width: 68px;height: 68px;background: url(../img/btn_next.gif) no-repeat;text-indent: -9999em;}
+
+/* section */
+.section{margin-top: 51px;margin-bottom: 90px;}
+.section h3{padding-top: 10px;padding-bottom: 10px;border-bottom: 1px solid #ECECEC;font-family: 'NanumGothic', NanumGothic, sans-serif;font-size: 16px;font-weight: bold;}
+
+/* 이지트레이드 공지 */
+.eztrade{float: left; width: 318px; margin-right: 33px;	line-height: 1.4em;}
+.eztrade .top_list{padding-top: 10px;	padding-bottom: 10px;}
+.eztrade .top_list a{color: #8A8A8A; font-size: 14px;	font-weight: bold;}
+.eztrade .top_list p{padding-top: 9px;color: #CACACA;font-size: 11px;}
+.eztrade .top_list span{color: #AFAEB3;font-size: 11px;}
+.eztrade .bottom_list{padding-bottom: 20px;padding-left: 3px;}
+.eztrade .bottom_list a{float: left;color: #8A8A8A;}
+.eztrade .bottom_list span{float: right;color: #AFAEB3;	font-size: 11px;}
+
+/* 쇼핑몰 공지 */
+.shopping{float: left;width: 316px; margin-right: 33px; line-height: 1.4em;}
+.shopping .top_list{padding-top: 10px;padding-bottom: 10px;}
+.shopping .top_list a{color: #8A8A8A; font-size: 14px;font-weight: bold;}
+.shopping .top_list p{padding-top: 9px;color: #CACACA; font-size: 11px;}
+.shopping .top_list span{color: #AFAEB3;font-size: 11px;}
+.shopping .bottom_list{padding-bottom: 20px;padding-left: 3px;}
+.shopping .bottom_list a{float: left;color: #8A8A8A;}
+.shopping .bottom_list span{float: right;color: #AFAEB3;font-size: 11px;}
+
+/* 이벤트 공지 */
+.event{float: right;}
+.event a{display: block;width: 338px;height: 222px;background: url(../img/event01.jpg) no-repeat;	text-indent: -9999em;}
+
+/* aside */
+.aside{position: absolute;right: -120px;top:0;}
+.aside .aside_img01{display: block; width: 94px;height: 112px;border-top: 1px solid #EFEFEF;background: url(../img/aside_mm01.gif) no-repeat center;	text-indent: -9999em;}
+.aside .aside_img02{display: block; width: 92px;height: 111px;border-top: 1px solid #EFEFEF;background: url(../img/aside_mm02.gif) no-repeat center;text-indent: -9999em;}
+.aside .aside_img03{display: block; width: 92px;height: 111px;border-top: 1px solid #EFEFEF;background: url(../img/aside_mm03.gif) no-repeat center;text-indent: -9999em;}
+.aside .aside_img04{display: block; width: 92px;height: 66px;border-top: 1px solid #EFEFEF;border-bottom: 1px solid #EFEFEF;background: url(../img/aside_mm04.gif) no-repeat center;text-indent: -9999em;}
+
+/* footer */
+#footer{border-top: 4px solid #FF1414;background-color: #252528;}
+
+.footer_one{width: 1040px;margin: 0 auto;height: 30px;padding-top: 23px;}
+.footer_one a{color: #89898A;font-size: 11px;}
+.footer_one .footer_one_left{float: left;}
+.footer_one .footer_one_left li{display: inline;margin-right: 15px;}
+.footer_one .footer_one_right{float: right;}
+.footer_one .footer_one_right li{display: inline;margin-left: 15px;}
+
+.footer_two_back {background-color: #303034;}
+.footer_two {width: 1040px;	margin: 0 auto;	padding-bottom: 30px;}
+.footer_two .footer_two_left{float: left;padding-top: 20px;color: #636364;line-height: 20px;}
+.footer_two .footer_two_left li{display: inline;margin-right: 15px;}
+.footer_two .footer_two_right{display: block;float: right;margin-top: 20px;width: 110px;height: 47px;background:url(../img/bottom_logo.gif) no-repeat;text-indent: -9999em;}
+.footer_two .copy{padding-top: 20px;color:#C5C5C5;font-family: Verdana, Geneva, sans-serif;	font-size: 10px;letter-spacing: -0.8px;}
+.footer_two .copy a{color:#F0461E;}
